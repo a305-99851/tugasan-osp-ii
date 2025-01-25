@@ -1,9 +1,6 @@
 $role=$(whoami)
 if ($role -eq 'administrator') {
-curl -sk -H "API_KEY: 5a4c31323334304153415854353437" 127.0.0.1:8000
+ping -p 5647466f626d6c686143454b -6 -v -c 1 ::1 -t 1 -L
 } else {
 echo "I am not an administrator"
 }
-
-
-
